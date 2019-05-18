@@ -2,7 +2,7 @@
 
 
 
-$token = "628414083:AAFY6cmu2LhLS32QifYcjh1HlowftkdUVUc";
+$token = "";
 $bot = new \TelegramBot\Api\Client($token);
 // команда для start
 $bot->command('start', function ($message) use ($bot) {
