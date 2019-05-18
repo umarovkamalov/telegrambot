@@ -1,3 +1,7 @@
+<?php
+
+
+
 $token = "628414083:AAFY6cmu2LhLS32QifYcjh1HlowftkdUVUc";
 $bot = new \TelegramBot\Api\Client($token);
 // команда для start
